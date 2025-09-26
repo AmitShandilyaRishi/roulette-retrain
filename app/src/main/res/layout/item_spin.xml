@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/layout/item_spin.xml -->
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:padding="8dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tvDealer"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/tvLast5"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/tvDropSector"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"/>
+</LinearLayout>-->
+
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardElevation="4dp"
+    app:cardCornerRadius="8dp"
+    app:cardUseCompatPadding="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp">
+
+        <!-- Dealer Name -->
+        <TextView
+            android:id="@+id/tvDealer"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Dealer: Alice"
+            android:textAppearance="?attr/textAppearanceSubtitle1"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/tvDropSector"
+            app:layout_constraintHorizontal_bias="0" />
+
+        <!-- Drop Sector -->
+        <TextView
+            android:id="@+id/tvDropSector"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sector: 20–24"
+            android:textAppearance="?attr/textAppearanceSubtitle2"
+            app:layout_constraintTop_toTopOf="@id/tvDealer"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <!-- Last 5 Numbers -->
+        <com.google.android.material.chip.ChipGroup
+            android:id="@+id/tvLast5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:chipSpacing="4dp"
+            app:singleLine="true"
+            app:layout_constraintTop_toBottomOf="@id/tvDealer"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="8dp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.google.android.material.card.MaterialCardView>
+
+

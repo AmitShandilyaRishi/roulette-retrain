@@ -1,0 +1,13 @@
+{
+  "speedMap":{"LOW":0,"MEDIUM":1,"HIGH":2},
+  "dirMap":{"LEFT":0,"RIGHT":1},
+  "dealerLabels":["Alice","Bob","Carol"],
+  "tableLabels":["T1","T2","T3"],
+  "materialLabels":["Standard","Premium"],
+  "techniqueLabels":["Fast Flick","Slow Roll"],
+  "dropSectorLabels":["0–4","5–9","10–14","15–19","20–24","25–29","30–34","35–36"],
+  "contMean":[0.5,0.7,300f,320f,5f,4f,180f,20000f,0.5f,2f],
+  "contStd":[0.1,0.15,50f,50f,1f,1f,30f,5000f,0.2f,1f],
+  "K":5,
+  "num_pockets":37
+}

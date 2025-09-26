@@ -1,0 +1,29 @@
+plugins {
+    id 'java'
+    id 'com.github.johnrengelman.shadow' version '7.1.2'
+}
+
+group = 'com.amitthakur.retrain'
+version = '1.0-SNAPSHOT'
+
+java {
+    sourceCompatibility JavaVersion.VERSION_17
+    targetCompatibility JavaVersion.VERSION_17
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'com.google.firebase:firebase-admin:9.1.1'
+    implementation 'com.google.code.gson:gson:2.10.1'
+    implementation 'nz.ac.waikato.cms.weka:weka-stable:3.8.6'
+    testImplementation "junit:junit:4.13.2"
+}
+
+jar {
+    manifest {
+        attributes 'Main-Class': 'com.amitthakur.retrain.RetrainPipeline'
+    }
+}

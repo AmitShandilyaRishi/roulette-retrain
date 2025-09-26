@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="directions">
+        <item>LEFT</item>
+        <item>RIGHT</item>
+    </string-array>
+
+    <string-array name="speeds">
+        <item>LOW</item>
+        <item>MEDIUM</item>
+        <item>HIGH</item>
+    </string-array>
+
+    <string-array name="table_ids">
+        <item>T1</item>
+        <item>T2</item>
+        <item>T3</item>
+    </string-array>
+
+    <string-array name="ball_materials">
+        <item>Standard</item>
+        <item>Premium</item>
+    </string-array>
+
+    <string-array name="spin_techniques">
+        <item>Fast Flick</item>
+        <item>Slow Roll</item>
+    </string-array>
+
+    <string-array name="drop_sectors">
+        <item>0–4</item>
+        <item>5–9</item>
+        <item>10–14</item>
+        <item>15–19</item>
+        <item>20–24</item>
+        <item>25–29</item>
+        <item>30–34</item>
+        <item>35–36</item>
+    </string-array>
+</resources>

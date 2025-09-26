@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "908873276819",
+    "project_id": "roulette-predictions",
+    "storage_bucket": "roulette-predictions.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:908873276819:android:6b5293b7daee72131ddc66",
+        "android_client_info": {
+          "package_name": "com.amitthakur.roulette"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2TMxEx1wEFnOMQ8jEQdV-cBJt9Zbt_nA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

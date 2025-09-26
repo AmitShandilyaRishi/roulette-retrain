@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Your app’s theme must inherit from a MaterialComponents theme -->
+    <style name="Theme.RoulettePredictor" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- … your color/typography overrides … -->
+        <item name="materialCardViewStyle">@style/Widget.MaterialComponents.Card.View</item>
+    </style>
+
+    <!-- This is the custom style referenced in your layout -->
+    <style name="Widget.MaterialComponents.Card.View"
+        parent="Widget.MaterialComponents.CardView">
+        <!-- uniform margin around each card -->
+        <item name="android:layout_margin">8dp</item>
+        <!-- rounded corners -->
+        <item name="cardCornerRadius">8dp</item>
+        <!-- subtle elevation -->
+        <item name="cardElevation">4dp</item>
+        <!-- add default inner padding on pre-L devices -->
+        <item name="cardUseCompatPadding">true</item>
+    </style>
+
+</resources>
